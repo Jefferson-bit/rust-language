@@ -17,6 +17,22 @@ a parti deles. Como corre com rustc, geralmente deixamos o Cargo executar rustdo
 rustdoc --version
 ```
 Cargo pode criar um novo pacote Rust para nós, com alguns metadados padrão:
-``` rust
+``` shell
 cargo new hello
+``` 
+Podemos invocar o comando abaixo de qlqr diretorio no pacote para construir e executar o programa:
+``` shell
+cargo run 
+``` 
+Ele invoca o compilador **rustc** e em seguida roda o executavel q foi gerado. O cargo coloca o executavel no **subdiretorio**
+**target**
+
+Quando terminarmos, vc pode apagar o diretorios usando o Cargo com o comando abaixo:
+``` shell
+cargo clean
+``` 
+
+Executa os testes que o programa possui
+``` shell
+cargo test
 ``` 
