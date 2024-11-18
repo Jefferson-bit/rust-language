@@ -1,0 +1,11 @@
+[package]
+name = "actix-gcd"
+version = "0.1.0"
+edition = "2021"
+
+# veja mais chaves e suas definições em https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4.0"  # Use a versão mais recente
+serde = { version = "1.0", features = ["derive"] }
+
